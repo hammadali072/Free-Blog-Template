@@ -1,6 +1,5 @@
 import React from 'react'
 import './css/style.css'
-import { Button } from 'react-bootstrap'
 import { MdAccountCircle } from "react-icons/md";
 import Temple1 from './assets/Temple.png'
 import Man from './assets/Man.png'
@@ -11,7 +10,7 @@ const SinglePost = () => {
     <div className='container'>
       <div className="single-post">
         <div className="sp-tech">
-          <Button className="btn ">Technology</Button>
+          <button className="btn ">Technology</button>
           <p>The Impact of Technology on the Workplace: <br /> How Technology is Changing</p>
           <div className="profile-1">
             <MdAccountCircle size={30} />

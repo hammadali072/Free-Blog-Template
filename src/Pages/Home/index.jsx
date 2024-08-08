@@ -4,7 +4,7 @@ import Post from './features/Post'
 
 const Home = () => {
   return (
-    <div>
+    <div className='bg-dark'>
       <Landing/>
       <Post/>
     </div>

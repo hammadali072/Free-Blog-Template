@@ -16,7 +16,6 @@ import Json from './assets/profile/Json.png'
 import Elizbath from './assets/profile/Elizabeth.png'
 import Ernie from './assets/profile/Ernie.png'
 import Eric from './assets/profile/eric.png'
-import { Button } from 'react-bootstrap';
 
 const Blog = () => {
   return (
@@ -29,7 +28,7 @@ const Blog = () => {
         <div className="img">
           <img src={Image} alt="" />
           <div className="technology-1">
-            <Button className="btn ">Technology</Button>
+            <button className="btn ">Technology</button>
             <p>The Impact of Technology on the <br /> Workplace: How Technology is Changing</p>
             <div className="profile-1">
               <MdAccountCircle size={30}/>

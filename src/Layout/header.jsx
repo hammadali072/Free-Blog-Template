@@ -26,12 +26,19 @@ const Header = () => {
             <div className="isearch">
               <input type="text" placeholder='Search' />
               <IoSearchSharp className='sicon' />
-          </div>
-          <div className="toggle">
-            <input type="checkbox" name="" id="check" />
-            <label htmlFor="check" className='button'></label>
-          </div>
             </div>
+            <div className="toggle-icon">
+              <div className="icon-otr">
+                <IoSearchSharp className='sicon' />
+              </div>
+            <div className="toggle">
+                <label class="switch">
+                  <input className='toggleBtn' type="checkbox" />
+                  <span class="slider round"></span>
+                </label>
+            </div>
+            </div>
+          </div>
         </div>
       </div>
     </header>

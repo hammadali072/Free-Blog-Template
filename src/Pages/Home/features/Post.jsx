@@ -18,6 +18,11 @@ import Eric from '../assets/profile/eric.png'
 const Post = () => {
     return ( 
         <div className='container'>
+            <div className="advert">
+        <h4>Advertisement</h4>
+        <h2>You can place ads</h2>
+        <p>750x100</p>
+      </div>
             <div className="post">
                 <h2>Latest Post</h2>
                 <div className="cards">
